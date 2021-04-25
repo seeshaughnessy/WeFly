@@ -70,7 +70,7 @@ struct FlightChoiceView: View {
         .date : departureDate
       ]
     }
-    vm.getFlightResults(with: queries)
+//    vm.getFlightResults(with: queries)
   }
 }
 

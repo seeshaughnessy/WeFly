@@ -27,7 +27,7 @@ class FlightResultsViewModel: ObservableObject {
   
   
   init() {
-    let flightJson: FlightJson = Bundle.main.decode("FlightNumberResponse.json")
+    let flightJson: FlightJson = Bundle.main.decode("DemoSearchResults.json")
     self.flightResults = flightJson.data
     self.cities = Bundle.main.decode("AirportCities.json")
     self.airlines = Bundle.main.decode("AirlineCodes.json")
@@ -190,7 +190,7 @@ class FlightResultsViewModel: ObservableObject {
   
   //MARK: - LOCATIONS
   
-  func getTransitTime(with flight: FlightInfo, transitType: MKDirectionsTransportType) {
+  func getTransitTime(with flight: FlightInfo) {
     guard let airport = flight.departure.airport else { return }
     let city = getCity(from: flight.departure.iata)
     let state = getState(from: flight.departure.iata)
@@ -209,20 +209,26 @@ class FlightResultsViewModel: ObservableObject {
       
       //      print("Airport Coords: \(location.coordinate)")
       
-      // Use your location
-      self.requestETA(destination: location.coordinate, transitType: transitType) { (travelTime, error) in
+      // Get automibile transit time
+      self.requestETA(destination: location.coordinate, transitType: .automobile) { (travelTime, error) in
         //Get time remaining string
         guard let travelTime = travelTime, error == nil else {
           print("Could not find travel time")
           return
         }
-        if transitType == .automobile {
-          self.transitTime = travelTime
-        } else if transitType == .transit {
           self.autoTime = travelTime
-        }
-        
       }
+      
+      //Get public transit time
+      self.requestETA(destination: location.coordinate, transitType: .transit) { (travelTime, error) in
+        //Get time remaining string
+        guard let travelTime = travelTime, error == nil else {
+          print("Could not find travel time")
+          return
+        }
+          self.transitTime = travelTime
+      }
+      
       return
     }
     

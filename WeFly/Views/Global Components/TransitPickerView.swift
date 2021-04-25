@@ -11,8 +11,6 @@ struct TransitPickerView: View {
   @EnvironmentObject var vm : FlightResultsViewModel
   
   @Binding var isByCar: Bool
-  var autoTime: String
-  var flight: FlightInfo
   
   var body: some View {
     ZStack {
@@ -33,9 +31,6 @@ struct TransitPickerView: View {
                 .font(.footnote)
                 .foregroundColor(.lightGrayWeFly)
             }
-//            .onAppear(perform: {
-//              vm.getTransitTime(with: flight, transitType: .automobile)
-//            })
           )
           .onTapGesture {
             isByCar = true
@@ -54,10 +49,6 @@ struct TransitPickerView: View {
                 .font(.footnote)
                 .foregroundColor(.lightGrayWeFly)
             }
-            .onAppear(perform: {
-              vm.getTransitTime(with: flight, transitType: .automobile)
-              vm.getTransitTime(with: flight, transitType: .transit)
-            })
           )
           .onTapGesture {
             isByCar = false
@@ -76,7 +67,7 @@ struct TransitPickerView_Previews: PreviewProvider {
   static let vm = FlightResultsViewModel()
   
     static var previews: some View {
-      TransitPickerView(isByCar: .constant(true), autoTime: "2m", flight: vm.flightResults[0])
+      TransitPickerView(isByCar: .constant(true))
           .previewLayout(.sizeThatFits)
         .environmentObject(FlightResultsViewModel())
     }

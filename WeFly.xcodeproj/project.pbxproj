@@ -43,7 +43,7 @@
 		83DE7F8126269BF900EF5DFE /* TransitPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DE7F8026269BF900EF5DFE /* TransitPickerView.swift */; };
 		83DE7F842626A35700EF5DFE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DE7F832626A35700EF5DFE /* Constants.swift */; };
 		83DE7F872626A54400EF5DFE /* FlightNumberResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 83DE7F862626A54400EF5DFE /* FlightNumberResponse.json */; };
-		83DE7F8E2626AC9100EF5DFE /* FlightSearchResults.json in Resources */ = {isa = PBXBuildFile; fileRef = 83DE7F8D2626AC9100EF5DFE /* FlightSearchResults.json */; };
+		83DE7F8E2626AC9100EF5DFE /* DemoSearchResults.json in Resources */ = {isa = PBXBuildFile; fileRef = 83DE7F8D2626AC9100EF5DFE /* DemoSearchResults.json */; };
 		83DE7F912627556F00EF5DFE /* Bundle-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DE7F902627556F00EF5DFE /* Bundle-Extension.swift */; };
 		83DE7F952627578600EF5DFE /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DE7F942627578600EF5DFE /* Flight.swift */; };
 		83DE7F982627E30600EF5DFE /* FlightChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DE7F972627E30600EF5DFE /* FlightChoiceView.swift */; };
@@ -90,7 +90,7 @@
 		83DE7F8026269BF900EF5DFE /* TransitPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitPickerView.swift; sourceTree = "<group>"; };
 		83DE7F832626A35700EF5DFE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		83DE7F862626A54400EF5DFE /* FlightNumberResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FlightNumberResponse.json; sourceTree = "<group>"; };
-		83DE7F8D2626AC9100EF5DFE /* FlightSearchResults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FlightSearchResults.json; sourceTree = "<group>"; };
+		83DE7F8D2626AC9100EF5DFE /* DemoSearchResults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DemoSearchResults.json; sourceTree = "<group>"; };
 		83DE7F902627556F00EF5DFE /* Bundle-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Extension.swift"; sourceTree = "<group>"; };
 		83DE7F942627578600EF5DFE /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 		83DE7F972627E30600EF5DFE /* FlightChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightChoiceView.swift; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 				83CDAF5F2625005E00755BB5 /* Assets.xcassets */,
 				83CDAF642625005E00755BB5 /* Info.plist */,
 				83DE7F862626A54400EF5DFE /* FlightNumberResponse.json */,
-				83DE7F8D2626AC9100EF5DFE /* FlightSearchResults.json */,
+				83DE7F8D2626AC9100EF5DFE /* DemoSearchResults.json */,
 				8354A4362628163E0053B66E /* AirportCities.json */,
 				83C947B4262E7805002D0792 /* AirlineCodes.json */,
 				83CDAF6E262506BF00755BB5 /* Fonts */,
@@ -371,7 +371,7 @@
 				83CDAF632625005E00755BB5 /* Preview Assets.xcassets in Resources */,
 				83CDAF71262506BF00755BB5 /* padauk-book.ttf in Resources */,
 				83C947B5262E7805002D0792 /* AirlineCodes.json in Resources */,
-				83DE7F8E2626AC9100EF5DFE /* FlightSearchResults.json in Resources */,
+				83DE7F8E2626AC9100EF5DFE /* DemoSearchResults.json in Resources */,
 				83CDAF602625005E00755BB5 /* Assets.xcassets in Resources */,
 				83CDAF72262506BF00755BB5 /* padauk-bold.ttf in Resources */,
 				83DE7F872626A54400EF5DFE /* FlightNumberResponse.json in Resources */,

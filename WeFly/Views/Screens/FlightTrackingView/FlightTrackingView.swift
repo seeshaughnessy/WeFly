@@ -84,7 +84,10 @@ struct FlightTrackingView: View {
       
       Spacer()
       
-      TransitPickerView(isByCar: $isByCar, autoTime: vm.transitTime, flight: selectedFlight)
+      TransitPickerView(isByCar: $isByCar)
+        .onAppear(perform: {
+          vm.getTransitTime(with: selectedFlight)
+        })
       
       Spacer()
       
