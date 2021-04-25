@@ -1,0 +1,803 @@
+{
+  "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "count": 16,
+    "total": 16
+  },
+  "data": [
+    {
+      "flight_date": "2021-04-16",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B20",
+        "delay": 33,
+        "scheduled": "2021-04-16T09:45:00+00:00",
+        "estimated": "2021-04-16T09:45:00+00:00",
+        "actual": "2021-04-16T10:17:00+00:00",
+        "estimated_runway": "2021-04-16T10:17:00+00:00",
+        "actual_runway": "2021-04-16T10:17:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B23",
+        "baggage": "6",
+        "delay": 7,
+        "scheduled": "2021-04-16T15:35:00+00:00",
+        "estimated": "2021-04-16T15:35:00+00:00",
+        "actual": "2021-04-16T15:50:00+00:00",
+        "estimated_runway": "2021-04-16T15:50:00+00:00",
+        "actual_runway": "2021-04-16T15:50:00+00:00"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      },
+      "flight": {
+        "number": "6702",
+        "iata": "SK6702",
+        "icao": "SAS6702",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "385",
+          "flight_iata": "ua385",
+          "flight_icao": "ual385"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-16",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B20",
+        "delay": 44,
+        "scheduled": "2021-04-16T08:00:00+00:00",
+        "estimated": "2021-04-16T08:00:00+00:00",
+        "actual": "2021-04-16T08:44:00+00:00",
+        "estimated_runway": "2021-04-16T08:44:00+00:00",
+        "actual_runway": "2021-04-16T08:44:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B26",
+        "baggage": "6",
+        "delay": 23,
+        "scheduled": "2021-04-16T13:49:00+00:00",
+        "estimated": "2021-04-16T13:49:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "1215",
+        "iata": "UA1215",
+        "icao": "UAL1215",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-16",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B45",
+        "delay": null,
+        "scheduled": "2021-04-16T16:15:00+00:00",
+        "estimated": "2021-04-16T16:15:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B24",
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2021-04-16T22:02:00+00:00",
+        "estimated": "2021-04-16T22:02:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "226",
+        "iata": "UA226",
+        "icao": "UAL226",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-16",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B20",
+        "delay": 33,
+        "scheduled": "2021-04-16T09:45:00+00:00",
+        "estimated": "2021-04-16T09:45:00+00:00",
+        "actual": "2021-04-16T10:17:00+00:00",
+        "estimated_runway": "2021-04-16T10:17:00+00:00",
+        "actual_runway": "2021-04-16T10:17:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B23",
+        "baggage": "6",
+        "delay": 7,
+        "scheduled": "2021-04-16T15:35:00+00:00",
+        "estimated": "2021-04-16T15:35:00+00:00",
+        "actual": "2021-04-16T15:50:00+00:00",
+        "estimated_runway": "2021-04-16T15:50:00+00:00",
+        "actual_runway": "2021-04-16T15:50:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "385",
+        "iata": "UA385",
+        "icao": "UAL385",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N404UA",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "A4BD40"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-16",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B43",
+        "delay": null,
+        "scheduled": "2021-04-16T17:59:00+00:00",
+        "estimated": "2021-04-16T17:59:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B27",
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2021-04-16T23:51:00+00:00",
+        "estimated": "2021-04-16T23:51:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "764",
+        "iata": "UA764",
+        "icao": "UAL764",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-16",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "C43",
+        "delay": null,
+        "scheduled": "2021-04-16T17:50:00+00:00",
+        "estimated": "2021-04-16T17:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2021-04-16T23:50:00+00:00",
+        "estimated": "2021-04-16T23:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "491",
+        "iata": "WN491",
+        "icao": "SWA491",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-15",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "A37",
+        "delay": 8,
+        "scheduled": "2021-04-15T12:39:00+00:00",
+        "estimated": "2021-04-15T12:39:00+00:00",
+        "actual": "2021-04-15T12:46:00+00:00",
+        "estimated_runway": "2021-04-15T12:46:00+00:00",
+        "actual_runway": "2021-04-15T12:46:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C9",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2021-04-15T18:30:00+00:00",
+        "estimated": "2021-04-15T18:30:00+00:00",
+        "actual": "2021-04-15T18:06:00+00:00",
+        "estimated_runway": "2021-04-15T18:06:00+00:00",
+        "actual_runway": "2021-04-15T18:06:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "9216",
+        "iata": "AA9216",
+        "icao": "AAL9216",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "494",
+          "flight_iata": "b6494",
+          "flight_icao": "jbu494"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-15",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "A37",
+        "delay": 8,
+        "scheduled": "2021-04-15T12:39:00+00:00",
+        "estimated": "2021-04-15T12:39:00+00:00",
+        "actual": "2021-04-15T12:46:00+00:00",
+        "estimated_runway": "2021-04-15T12:46:00+00:00",
+        "actual_runway": "2021-04-15T12:46:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C9",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2021-04-15T18:30:00+00:00",
+        "estimated": "2021-04-15T18:30:00+00:00",
+        "actual": "2021-04-15T18:06:00+00:00",
+        "estimated_runway": "2021-04-15T18:06:00+00:00",
+        "actual_runway": "2021-04-15T18:06:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "494",
+        "iata": "B6494",
+        "icao": "JBU494",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-15",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "A37",
+        "delay": 8,
+        "scheduled": "2021-04-15T12:39:00+00:00",
+        "estimated": "2021-04-15T12:39:00+00:00",
+        "actual": "2021-04-15T12:46:00+00:00",
+        "estimated_runway": "2021-04-15T12:46:00+00:00",
+        "actual_runway": "2021-04-15T12:46:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C9",
+        "baggage": "3",
+        "delay": null,
+        "scheduled": "2021-04-15T18:30:00+00:00",
+        "estimated": "2021-04-15T18:30:00+00:00",
+        "actual": "2021-04-15T18:06:00+00:00",
+        "estimated_runway": "2021-04-15T18:06:00+00:00",
+        "actual_runway": "2021-04-15T18:06:00+00:00"
+      },
+      "airline": {
+        "name": "Icelandair",
+        "iata": "FI",
+        "icao": "ICE"
+      },
+      "flight": {
+        "number": "7886",
+        "iata": "FI7886",
+        "icao": "ICE7886",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "494",
+          "flight_iata": "b6494",
+          "flight_icao": "jbu494"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-15",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B42",
+        "delay": 47,
+        "scheduled": "2021-04-15T09:45:00+00:00",
+        "estimated": "2021-04-15T09:45:00+00:00",
+        "actual": "2021-04-15T10:31:00+00:00",
+        "estimated_runway": "2021-04-15T10:31:00+00:00",
+        "actual_runway": "2021-04-15T10:31:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B27",
+        "baggage": "6",
+        "delay": 15,
+        "scheduled": "2021-04-15T15:35:00+00:00",
+        "estimated": "2021-04-15T15:35:00+00:00",
+        "actual": "2021-04-15T15:49:00+00:00",
+        "estimated_runway": "2021-04-15T15:49:00+00:00",
+        "actual_runway": "2021-04-15T15:49:00+00:00"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      },
+      "flight": {
+        "number": "6702",
+        "iata": "SK6702",
+        "icao": "SAS6702",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "385",
+          "flight_iata": "ua385",
+          "flight_icao": "ual385"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-15",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B27",
+        "delay": 3,
+        "scheduled": "2021-04-15T08:00:00+00:00",
+        "estimated": "2021-04-15T08:00:00+00:00",
+        "actual": "2021-04-15T08:03:00+00:00",
+        "estimated_runway": "2021-04-15T08:03:00+00:00",
+        "actual_runway": "2021-04-15T08:03:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B24",
+        "baggage": "6",
+        "delay": null,
+        "scheduled": "2021-04-15T13:49:00+00:00",
+        "estimated": "2021-04-15T13:49:00+00:00",
+        "actual": "2021-04-15T13:26:00+00:00",
+        "estimated_runway": "2021-04-15T13:26:00+00:00",
+        "actual_runway": "2021-04-15T13:26:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "1215",
+        "iata": "UA1215",
+        "icao": "UAL1215",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-15",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B43",
+        "delay": 20,
+        "scheduled": "2021-04-15T13:45:00+00:00",
+        "estimated": "2021-04-15T13:45:00+00:00",
+        "actual": "2021-04-15T14:05:00+00:00",
+        "estimated_runway": "2021-04-15T14:05:00+00:00",
+        "actual_runway": "2021-04-15T14:05:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B30",
+        "baggage": "7",
+        "delay": 7,
+        "scheduled": "2021-04-15T19:31:00+00:00",
+        "estimated": "2021-04-15T19:31:00+00:00",
+        "actual": "2021-04-15T19:26:00+00:00",
+        "estimated_runway": "2021-04-15T19:26:00+00:00",
+        "actual_runway": "2021-04-15T19:26:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "1765",
+        "iata": "UA1765",
+        "icao": "UAL1765",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-15",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B41",
+        "delay": 49,
+        "scheduled": "2021-04-15T16:15:00+00:00",
+        "estimated": "2021-04-15T16:15:00+00:00",
+        "actual": "2021-04-15T17:03:00+00:00",
+        "estimated_runway": "2021-04-15T17:03:00+00:00",
+        "actual_runway": "2021-04-15T17:03:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B23",
+        "baggage": "7",
+        "delay": 25,
+        "scheduled": "2021-04-15T22:03:00+00:00",
+        "estimated": "2021-04-15T22:03:00+00:00",
+        "actual": "2021-04-15T22:27:00+00:00",
+        "estimated_runway": "2021-04-15T22:27:00+00:00",
+        "actual_runway": "2021-04-15T22:27:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "226",
+        "iata": "UA226",
+        "icao": "UAL226",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N826UA",
+        "iata": "A319",
+        "icao": "A319",
+        "icao24": "AB48E8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-15",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B42",
+        "delay": 47,
+        "scheduled": "2021-04-15T09:45:00+00:00",
+        "estimated": "2021-04-15T09:45:00+00:00",
+        "actual": "2021-04-15T10:31:00+00:00",
+        "estimated_runway": "2021-04-15T10:31:00+00:00",
+        "actual_runway": "2021-04-15T10:31:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B27",
+        "baggage": "6",
+        "delay": 15,
+        "scheduled": "2021-04-15T15:35:00+00:00",
+        "estimated": "2021-04-15T15:35:00+00:00",
+        "actual": "2021-04-15T15:49:00+00:00",
+        "estimated_runway": "2021-04-15T15:49:00+00:00",
+        "actual_runway": "2021-04-15T15:49:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "385",
+        "iata": "UA385",
+        "icao": "UAL385",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N404UA",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "A4BD40"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2021-04-15",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B47",
+        "delay": 81,
+        "scheduled": "2021-04-15T18:00:00+00:00",
+        "estimated": "2021-04-15T18:00:00+00:00",
+        "actual": "2021-04-15T19:21:00+00:00",
+        "estimated_runway": "2021-04-15T19:21:00+00:00",
+        "actual_runway": "2021-04-15T19:21:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B24",
+        "baggage": "7",
+        "delay": 48,
+        "scheduled": "2021-04-15T23:51:00+00:00",
+        "estimated": "2021-04-15T23:51:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "764",
+        "iata": "UA764",
+        "icao": "UAL764",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N14250",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "A0AD3E"
+      },
+      "live": {
+        "updated": "2021-04-16T02:47:59+00:00",
+        "latitude": 41.45,
+        "longitude": -92.37,
+        "altitude": 11887.2,
+        "direction": 83.03,
+        "speed_horizontal": 945.972,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2021-04-15",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "C32",
+        "delay": 56,
+        "scheduled": "2021-04-15T17:50:00+00:00",
+        "estimated": "2021-04-15T17:50:00+00:00",
+        "actual": "2021-04-15T18:46:00+00:00",
+        "estimated_runway": "2021-04-15T18:46:00+00:00",
+        "actual_runway": "2021-04-15T18:46:00+00:00"
+      },
+      "arrival": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "B",
+        "gate": "B34",
+        "baggage": null,
+        "delay": 18,
+        "scheduled": "2021-04-15T23:50:00+00:00",
+        "estimated": "2021-04-15T23:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "491",
+        "iata": "WN491",
+        "icao": "SWA491",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    }
+  ]
+}

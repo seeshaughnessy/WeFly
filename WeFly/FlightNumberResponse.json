@@ -1,0 +1,61 @@
+{
+  "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "count": 1,
+    "total": 1
+  },
+  "data": [
+    {
+      "flight_date": "2021-04-13",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KABQ",
+        "terminal": null,
+        "gate": "A6",
+        "delay": 9,
+        "scheduled": "2021-04-13T12:30:00+00:00",
+        "estimated": "2021-04-20T12:30:00+00:00",
+        "actual": "2021-04-13T12:38:00+00:00",
+        "estimated_runway": "2021-04-13T12:38:00+00:00",
+        "actual_runway": "2021-04-13T12:38:00+00:00"
+      },
+      "arrival": {
+        "airport": "Mc Carran International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAS",
+        "icao": "KLAS",
+        "terminal": "1",
+        "gate": "C23",
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2021-04-13T13:05:00+00:00",
+        "estimated": "2021-04-13T13:05:00+00:00",
+        "actual": "2021-04-13T12:48:00+00:00",
+        "estimated_runway": "2021-04-13T12:48:00+00:00",
+        "actual_runway": "2021-04-13T12:48:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "4639",
+        "iata": "WN4639",
+        "icao": "SWA4639",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N7818L",
+        "iata": "B737",
+        "icao": "B737",
+        "icao24": "AA97B8"
+      },
+      "live": null
+    }
+  ]
+}
